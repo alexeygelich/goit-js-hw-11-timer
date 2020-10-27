@@ -12,7 +12,7 @@ const secsRef = document.querySelector('span[data-value="secs"]');
 
 
 setInterval(()=>{
-    const date = new CountdownTimer(2020, 9, 30);
+    const date = new CountdownTimer(2021, 0, 1);
     const time = date.targetDate - date.selector;
     const days = Math.floor(time / (1000 * 60 * 60 * 24));
     const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
